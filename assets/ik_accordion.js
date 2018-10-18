@@ -30,12 +30,12 @@
 		
 		id = 'acc' + $('.ik_accordion').length; // create unique id
 		$elem = this.element;
-		plugin = this;è
+		plugin = this;
 		
 		$elem.attr({
 			'id': id,
 			'role': 'region' // add the accordion to the landmarked regions
-		}).addClass('ik_accordion')d;
+		}).addClass('ik_accordion');
 			
 		this.headers = $elem.children('dt').each(function(i, el) {
 			var $me, $btn;
